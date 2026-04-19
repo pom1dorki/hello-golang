@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: <Docker ID>/hello-golang
+          images: pom1dorki/hello-golang
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v7
